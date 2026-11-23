@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Emberfall Duel — a card game of crowns and sigils</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:,">
+</head>
+<body>
+  <main id="table" aria-label="Emberfall Duel table">
+    <header class="banner" id="warden-banner"></header>
+    <section class="row" id="warden-row" aria-label="The Warden's row"></section>
+    <section id="score-strip" aria-label="Score"></section>
+    <section class="row" id="player-row" aria-label="Your row"></section>
+    <section id="hand" aria-label="Your hand"></section>
+    <footer class="banner" id="player-banner"></footer>
+  </main>
+
+  <div id="title-screen" class="overlay hidden"></div>
+  <div id="end-screen" class="overlay hidden"></div>
+  <div id="round-banner" class="hidden"></div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
